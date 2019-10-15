@@ -45,7 +45,7 @@ public class ProgramRunner {
 				TVShows1.add(new Program ("Hunting of Hill House" , "Horror" , 1));
 				TVShows1.add(new Program ("Big Mouth" , "Scaring" , 2));
 
-	for (Program t : TVShows1)
+	for (Program t : TVShows1)//
 		{
 			System.out.println(t.getTitle());
 			System.out.println(t.getGenre());
